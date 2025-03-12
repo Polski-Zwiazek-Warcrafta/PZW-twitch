@@ -1,25 +1,9 @@
 # PZW-twitch
 
-Create virtual env
+Create .env file, input values:
 ```
-python -m venv ./venv
-```
-
-Use new virtual env
-```
-source venv/bin/activate
-```
-
-Install requirements
-```
-pip install -r requirements.txt
-```
-
-
-Create .env file, insert values:
-```
-DB_NAME=
-DB_USER=
+DB_NAME=pzw
+DB_USER=pzwUser
 DB_PASS=
 DB_HOST=
 TWITCH_USERNAME=
